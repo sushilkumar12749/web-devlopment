@@ -4,12 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Best Online Food Delivery Services in India | OnlineMeals.com</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="phone.css" media="screen and (max-width: 682px)">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Bree+Serif&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav id="navbar">
-        <div id="">
-            <img src="images/logo.picture.png" alt="OnlineMeals.com" height="150px" width="150px">
+        <div id="logo">
+            <img src="images/logo.picture.png" alt="OnlineMeals.com" >
         </div>
         <ul>
             <li class="item"><a href="#">Home</a></li>
@@ -19,6 +26,84 @@
           
 
     </nav>
+    <section id="home">
+        <h1 class="h-primary">Welcome to OnlineMeals.com</h1>
+        <p>nostrum ducimus minus dolorem illum quisquam debitis, deleniti voluptas, corrupti ipsam laudantium aspernatur nobis odio eaque commodi.</p>
+        <button class="btn">Order Now</button>
+    </section>
+    <section class="services-container">
+        <h1 class="h-primary center">Our Services</h1>
+        <div class="services">
+            <div class="box">
+                <img src="images/pancakes-1265878_1280.jpg" alt="pancakes">
+                <h2 class="h-secondary center"> Pancakes</h2>
+                <p class="center">Experience the taste of authentic Italian pizza with fresh ingredients and a crispy crust.</p>
+            </div>
+            <div class="box">
+                <img src="images/delicious-burgers-studio.jpg" alt="delicious-burgers">
+                <h2 class="h-secondary center">Juicy Burgers</h2>
+                <p class="center">Savor our mouth-watering burgers made with premium beef and topped with fresh veggies.</p>
+            </div>
+            <div class="box">
+                <img src="images/top-view-vegan-salad-with-fresh-ingredients-plate-pepper-black-cutting-board.jpg" alt="Salad">
+                <h2 class="h-secondary center">Healthy Salads</h2>
+                <p class="center">Enjoy our variety of fresh and nutritious salads, perfect for a light meal.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="clints-section">
+        <h1 class="h-primary center">Our Clients</h1>
+        <div class="clints">
+            <div class="clint-item">
+                <img src="images//logo/color-752919_1280.png" alt="Client 1">
+                <!-- <h2 class="h-secondary center">sushilkumar</h2>
+                <p class="center">"OnlineMeals.com has transformed my dining experience. The variety and quality are unmatched!"</p> -->
+            </div>
+            <div class="clint-item">
+                <img src="images//logo/globe-1303192_1920.jpg" alt="business">
+                <!-- <h2 class="h-secondary center">sunilkumar</h2>
+                <p class="center">"I love the convenience of ordering from OnlineMeals.com. The food is always delicious and arrives hot!"</p> -->
+            </div>
+            <div class="clint-item">
+                <img src="images//logo/linked-in-2668692_1280.png" alt="Client 3">
+                <!-- <h2 class="h-secondary center">sushantkumar</h2>
+                <p class="center">"The customer service at OnlineMeals.com is exceptional. They truly care about their customers."</p> -->
+            </div>
+            <div class="clint-item">
+                <img src="images//logo/meta-6946715_1920.jpg" alt="Client 3">
+                <!-- <h2 class="h-secondary center">sushantkumar</h2>
+                <p class="center">"The customer service at OnlineMeals.com is exceptional. They truly care about their customers."</p> -->
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="h-primary">Contact Us</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name"  placeholder="Enter Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"  placeholder="Enter Your Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone"  placeholder="Enter Your Phone Number" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" cols="30" placeholder="Enter Your Message" required></textarea>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="center">
+            <p>&copy; 2026 OnlineMeals.com. All rights reserved.</p>
+        </div>
+    </footer>
     
 </body>
 </html> 
