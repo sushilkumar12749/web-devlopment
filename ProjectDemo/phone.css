@@ -15,37 +15,32 @@
 
 #home{
     height: 280px;
-    padding: 3px 68px;
-
+    padding: -3px -5px;
+    /* margin: 0px 0px; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* padding-left: 20px 0px; */
+    /* padding-right: 20px 0px; */
+    /* padding-top: 10px 0px;
+    padding-bottom: 10px 0px;   */
+    /* display: flex; */
 }
 #home::before{
     height: 370px;
 }
 #home p{
     font-size: 1rem;
-    margin-bottom: auto;
 }
 
 /* services section */
 
 #services{
     flex-direction: column;
-   
 
 }
 #service .box{
     padding: 14px;
-    margin: 2px 5px;
-    border-radius: 28px;
-    /* background: #fff; */
-    margin-bottom: 20px;
-   
 }
-
-
-
-
-
 
 /* clint Section */
 
@@ -65,7 +60,7 @@
 
 /* contact us section */
 #contact-box form{
-    width: 80px;
+    width: auto;
 }
 
 
@@ -82,4 +77,5 @@
     padding: 4px 8px;
     height: auto;
     width: auto;
+    margin-top: -2px;
 }
