@@ -1,0 +1,23 @@
+   /* responsive screen width 390px */
+.menu-section .menu-list{
+    gap: 60px;
+}
+
+.menu-section .menu-list .menu-item,
+.gallery-section .gallery-list .gallery-item{
+    width: 100%;
+}
+.testimonials-section .slider-wrapper{
+    margin: 0 0 30px;
+}
+.testimonials-section .swiper-slide-button{
+    display: none;
+}
+ 
+.footer-section .section-content{
+    flex-direction: column;
+    gap: 20px;
+}
+        
+    
+  

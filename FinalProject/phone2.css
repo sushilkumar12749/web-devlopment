@@ -1,0 +1,14 @@
+/* Responsive media query code for max-width 1024px */
+
+.menu-section .menu-list{
+    gap: 60px;
+}
+.menu-section .menu-list .menu-item{
+    width: calc(100%  / 2 - 60px);
+}
+.contact-section .section-content{
+    align-items: center;
+    flex-direction: column-reverse;
+}
+        
+    

@@ -1,0 +1,145 @@
+
+  
+
+
+
+
+/* Responsive media query code for max widhth 900px */
+
+:root{
+    --font-size-m:1rem;
+    --font-size-l:1.3rem;
+    --font-size-xl:1.5rem;
+    --font-size-xxl:1.8rem;
+}
+
+body.show-mobile-menu header::before{
+    content:"";
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    backdrop-filter: blur(5px);
+    background: rgb(0, 0, 0 , 0.2);
+}
+.navbar :where(#menu-close-button, #menu-open-button ){
+    font-size: var(--font-size-l);
+    /* border-color: var(--secondary-color);
+    background: var(--secondary-color); */
+    /* background: transparent; */
+    background-color: white;
+    border-radius: 1px;
+   
+    
+}
+.navbar #menu-close-button{
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    background-color: #fff;
+
+}
+.navbar #menu-open-button{
+    color: var(--white-color);
+    width: 25px;
+    background: transparent;
+    background-color: bisque;
+}
+    
+    
+
+
+.navbar .nav-menu{
+        display: block;
+        position: fixed;
+        left: -300px;
+        top: 0;
+        width: 300px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 100px;
+        background: #fff;
+        transition: 0.2s ease;
+    }
+
+    body.show-mobile-menu .navbar .nav-menu{
+        left: 0;
+    }
+
+    .navbar .nav-menu .nav-link{
+        color: var(--dark-color);
+        display: block;
+        margin-top: 10px;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: var(--font-size-l);
+    }
+
+    .hero-section .section-content{
+        gap: 50px;
+        text-align: center;
+        padding: 30px 20px 20px;
+        flex-direction: column-reverse;
+        justify-content: center;
+     
+    }
+    .hero-section .hero-detalis :is(.subtitle,.description), .about-section .about-details,
+    .contact-section .contact-form
+    {
+        max-width: 100%;
+
+    }
+
+    .hero-section .hero-detalis .buttons{
+        justify-content: center;
+    }
+
+    .hero-section .hero-images-wrapper{
+        max-width: 270px;
+        margin-right: 0;
+    }
+
+    .about-section .about-image-wrapper{
+        /* margin-top: -320px; */
+        /* width: 300px;
+        height: 300px;
+         */
+        
+        
+    }
+
+    .about-section .section-content{
+        flex-direction: column-reverse;
+        gap: 70px;
+        margin-top: 50px;
+
+    }
+
+     .about-section .about-image-wrapper .about-image{
+        width: 100%;
+        height: 100%;
+        max-width: 250px;
+        aspect-ratio: 1;
+        margin-top: -30px;
+     }
+
+    .menu-section .menu-list{
+         gap: 30px;
+    }
+    .menu-section .menu-list .menu-item{
+        width: calc(100%  / 3 - 30px);
+    }
+    
+    .menu-section .menu-list .menu-item .menu-image{
+        max-width: 200px;
+    }
+     .gallery-section .gallery-list{
+        gap: 60px;
+     }
+
+    .gallery-section .gallery-list .gallery-item{
+        width: calc(100% / 2 - 30px);
+    }
+ 
